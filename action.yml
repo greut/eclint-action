@@ -1,0 +1,5 @@
+name: EditorConfig lint
+description: Lint the files based on the .editorconfig
+runs:
+  using: docker
+  image: Dockerfile
