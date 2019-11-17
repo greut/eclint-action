@@ -3,3 +3,6 @@ description: Lint the files based on the .editorconfig
 runs:
   using: docker
   image: Dockerfile
+branding:
+  icon: edit
+  color: white
