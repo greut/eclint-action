@@ -6,4 +6,4 @@ ECLINT=eclint
 
 $ECLINT -version
 
-$ECLINT
+$ECLINT -force_colors
