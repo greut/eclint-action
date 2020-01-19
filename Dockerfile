@@ -1,4 +1,4 @@
-FROM docker.pkg.github.com/greut/eclint/cmd:v0.0.19
+FROM docker.pkg.github.com/greut/eclint/cmd:v0.0.20
 
 COPY entrypoint.sh /usr/local/bin/
 
