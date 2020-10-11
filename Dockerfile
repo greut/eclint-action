@@ -1,4 +1,4 @@
-FROM greut/eclint:v0.2.7
+FROM docker.pkg.github.com/greut/eclint/cmd:v0.2.8
 
 COPY entrypoint.sh /usr/local/bin/
 
