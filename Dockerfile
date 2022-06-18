@@ -1,4 +1,4 @@
-FROM greut/eclint:v0.3.3
+FROM ghrc.io/greut/eclint/cmd:v0.3.4
 
 COPY entrypoint.sh /usr/local/bin/
 
