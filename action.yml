@@ -6,3 +6,15 @@ runs:
 branding:
   icon: edit
   color: white
+
+inputs:
+  working_directory:
+    required: false
+    description: |
+      Directory to run the action on, from the repo root.
+      Default is .
+    default: "."
+  eclint_args:
+    required: false
+    description: |
+      Space separated args specified here will be added to eclint during execution
