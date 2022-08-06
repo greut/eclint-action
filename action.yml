@@ -12,8 +12,8 @@ inputs:
     required: false
     description: |
       Directory to run the action on, from the repo root.
-      Default is .
-    default: "."
+      Default is empty, thus using git ls-files
+    default: ""
   eclint_args:
     required: false
     description: |
